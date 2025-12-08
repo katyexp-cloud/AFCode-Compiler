@@ -76,5 +76,5 @@ This application requires Python 3.x and the standard Tkinter library (which is 
 
 1.  Click a node in the graph or select a file to display its source code in the **Console** (Right Pane).
 2.  **Edit** the code directly in the console text area.
-3.  Click the **"🚀 Run Code"** button in the **Sidebar**.
+3.  Click the **"Run Code"** button in the **Sidebar**.
 4.  The application creates a temporary, runnable file, executes it in a separate process, and displays the **output/errors** in a separate popup window or appended to the console. **(Note: Any header lines like **`=== Source Code: ...`** are automatically removed before compilation to prevent errors.)**
