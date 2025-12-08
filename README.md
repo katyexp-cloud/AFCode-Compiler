@@ -7,7 +7,8 @@ A powerful and fast desktop application built with **Tkinter** for visualizing t
 A.K.A. my compiler to help me orient myself in 10k lines of .py file. Currently designing game Anarchy Forever with that - thus the name AFCoder a.k.a Absolutely Fucking Compiler.
 
 Layout:
-<img width="1600" height="829" alt="image" src="https://github.com/user-attachments/assets/1ba07667-2f37-4bc2-b622-80a523463cbc" />
+<img width="1600" height="982" alt="image" src="https://github.com/user-attachments/assets/b7f579db-b083-46b3-b40d-1f6378f08a89" />
+
 
 
 Picture: Just me compiling my app in my compiler from IDLE compiler.
