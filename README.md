@@ -13,18 +13,18 @@ Custom Python compiler to help me orient myself in 10k lines of .py file. Curren
     * **Arrows** (lines) illustrate **dependencies** and **call relationships**.
     * zoom/unzoom, reset zoom, drag, quick find via bookmarked classes/defs, hover tooltips (arrows: where are they connecting to; boxes: content of def/class)
 * **Integrated Code Runner:** Execute code snippets directly from the console pane without leaving the application. Perfect for testing modules or debugging logic.
-* **Dynamic View Controls:** Filter and toggle visibility of different node types:
-    * **Functions** and **Methods**
-    * **Files** (typically marked in **Yellow**)
-    * **Dynamic Data/Variables** (typically marked in **Blue**)
-* **Interactive Navigation:**
-    * **Canvas Panning & Zooming** (using mouse drag and scroll wheel).
-    * **Class/def Bookmarks:** Jump instantly from the sidebar list to the corresponding class node on the canvas and its definition in the console.
+* **Canvas:** Filter and toggle visibility of different node types:
+    * **Panning & Zooming** (using mouse drag and scroll wheel).
+    * **Project** (blue), **Functions** (red), **Classes** (yellow) and **Methods** (green)
+    * **Files** (yellow)
+    * **Dynamic Data/Variables** (blue)
+* **Console:**
+    * **Search & Highlight** Yellow background after search (Next) /bookmarks
+    * **Font coloring** IDLE/IDE style + mellow black background.
+    * Separation of executed code's **Standard Output** and **Error** logs.
     * **Undo/Redo:** Endless instances of undo/redo.
-* **Advanced Console:**
-    * **Search & Highlight** (`Ctrl+F` binding).
-    * **Syntax Highlighting** (for JSON and Python output/code).
-    * Clean separation of executed code's **Standard Output** and **Error** logs.
+* **Navigation:**
+    * **Class/def Bookmarks:** Jump instantly from the sidebar list to the corresponding class node on the canvas and its definition in the console.
 
 ---
 ## What it can't do
