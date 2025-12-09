@@ -1,26 +1,17 @@
-# AFCoder
+# AFCode
 
-Readme created 99% by GPT, there's no time!
 
-A powerful and fast desktop application built with **Tkinter** for visualizing the structure and dependencies of Python code, especially useful for complex **Object-Oriented Programming (OOP)** projects. It provides a dynamic graph of classes, functions, and files, alongside an integrated console for code execution and analysis.
+Custom Python compiler to help me orient myself in 10k lines of .py file. Currently designing game Anarchy Forever with that - thus the name AFCoder a.k.a Absolutely Fucking Compiler.
 
-A.K.A. my compiler to help me orient myself in 10k lines of .py file. Currently designing game Anarchy Forever with that - thus the name AFCoder a.k.a Absolutely Fucking Compiler.
-
-Layout:
 <img width="1598" height="980" alt="image" src="https://github.com/user-attachments/assets/98f9b556-3ac6-47a8-bf47-02ad588278d5" />
 
-
-
-
-Picture: Just me compiling my app in my compiler from IDLE compiler.
-![compilerz](https://github.com/user-attachments/assets/63fdd16c-3239-4075-823c-d1eb62c80fc3)
-
 ---
-## Key Features
+## What it can do
 
 * **OOP Structure Visualization:** Automatically generates a navigable, dependency graph of your Python project.
-    * **Nodes** represent classes, functions, and files.
-    * **Edges** (lines) illustrate **dependencies** and **call relationships**.
+    * **Colored boxes** represent classes, functions, and files.
+    * **Arrows** (lines) illustrate **dependencies** and **call relationships**.
+    * zoom/unzoom, reset zoom, drag, quick find via bookmarked classes/defs, hover tooltips (arrows: where are they connecting to; boxes: content of def/class)
 * **Integrated Code Runner:** Execute code snippets directly from the console pane without leaving the application. Perfect for testing modules or debugging logic.
 * **Dynamic View Controls:** Filter and toggle visibility of different node types:
     * **Functions** and **Methods**
@@ -28,17 +19,23 @@ Picture: Just me compiling my app in my compiler from IDLE compiler.
     * **Dynamic Data/Variables** (typically marked in **Blue**)
 * **Interactive Navigation:**
     * **Canvas Panning & Zooming** (using mouse drag and scroll wheel).
-    * **Class Bookmarks:** Jump instantly from the sidebar list to the corresponding class node on the canvas and its definition in the console.
+    * **Class/def Bookmarks:** Jump instantly from the sidebar list to the corresponding class node on the canvas and its definition in the console.
+    * **Undo/Redo:** Endless instances of undo/redo.
 * **Advanced Console:**
     * **Search & Highlight** (`Ctrl+F` binding).
     * **Syntax Highlighting** (for JSON and Python output/code).
     * Clean separation of executed code's **Standard Output** and **Error** logs.
 
 ---
+## What it can't do
+
+* compile/export straight to .exe via pyinstaller + settings
+
+---
 
 ## Prerequisites
 
-This application requires Python 3.x and the standard Tkinter library (which is usually included with Python). You will also need the following modules:
+Python 3.x and following modules:
 
 * **`tkinter`** (Standard Library)
 * **`subprocess`** (Standard Library)
@@ -47,36 +44,50 @@ This application requires Python 3.x and the standard Tkinter library (which is 
 * **`json`** (Standard Library)
 * **`scrolledtext`** (From `tkinter` module)
 
-## How to Run
-
-1.  **Clone the Repository (or save the file):**
-    ```bash
-    git clone [YOUR_REPO_URL]
-    cd [your-project-directory]
-    ```
-
-2.  **Execute the Application:**
-    ```bash
-    python your_main_file_name.py
-    ```
-
 ## Usage Instructions
 
-### 1. Load a Project
+### Open FIle/Folder
 
-1.  Click the **"Open File/Folder"** button in the left **Sidebar**.
-2.  Select the Python file or project directory you wish to visualize.
+* opens filedialog -> choose .py file; if not selected -> choose folder
+  
+### Run Code
 
-### 2. Visualize the Structure
+* compile and run with it's own debug console (white)
 
-* The **Canvas** (Left Pane) will automatically populate with a diagram showing the relationships between your code components.
-* **Zoom** in/out using the **Mouse Scroll Wheel**.
-* **Pan** by holding the **Left Mouse Button** and dragging.
-* Use the **Class Bookmarks** list to quickly navigate to key definitions.
+### Class/function bookmarks
 
-### 3. Run Code
+* fetch class and def content of imported .py file (must be in OOP mode or render manually)
 
-1.  Click a node in the graph or select a file to display its source code in the **Console** (Right Pane).
-2.  **Edit** the code directly in the console text area.
-3.  Click the **"Run Code"** button in the **Sidebar**.
-4.  The application creates a temporary, runnable file, executes it in a separate process, and displays the **output/errors** in a separate popup window or appended to the console. **(Note: Any header lines like **`=== Source Code: ...`** are automatically removed before compilation to prevent errors.)**
+### Delete comments / Remove spaces
+
+* removes #, ''' and """ comments from the code straight in edit mode (don't need to render)
+
+ ### Save and render
+
+* saves (like ctrl+s) and manually renders graph out of console without OOP mode
+* 
+ ### Unused nodes
+
+* Hidden nodes in canvas (left-clicked)
+
+ ### Reset view
+
+* Zoom/unzoom canvas to fit
+
+
+### Hotkeys / Controls
+
+* ctrl+Z / ctrl+shift+Z: Undo/Redo
+* f5: run code
+* ctrl+s: save file (overwrite without asking)
+* ctrl+shift+s: save file as (opens filedialog)
+* ctrl+f: search in text
+* mousewheel: in canvas: zoom/unzoom; in text: scroll
+* left-click on box in canvas: hide
+* left-click on class/def in Bookmards: show (in text and in canvas)
+* checkboxes:
+   * Show Functions/Methods: Hide/unhide functions (def in root) and methods (def in class)
+   * Show Functions/Methods: Hide/unhide functions (def in root) and methods (def in class)
+   * OOP mode: automatically draws graph in real time while editing code
+* layout: drag all nested windows and main window; minsize menu = 200px; minsize console = 700px; minsize canvas = 1px
+
