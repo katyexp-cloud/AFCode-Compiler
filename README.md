@@ -95,6 +95,7 @@ Python 3.x and following modules:
 * left-click on box in canvas: hide
 * left-click on class/def in Bookmards: show (in text and in canvas)
 * shift+mousewheel: 2x speed scrolling/zooming
+* ctrl+mousewheel: 5x speed scrolling/zooming
 * checkboxes:
    * Show Functions/Methods: Hide/unhide functions (def in root) and methods (def in class)
    * Show Functions/Methods: Hide/unhide functions (def in root) and methods (def in class)
