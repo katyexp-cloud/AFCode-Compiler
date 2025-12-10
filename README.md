@@ -3,8 +3,11 @@
 
 Custom Python compiler to help me orient myself in 10k lines of .py file. Currently designing game Anarchy Forever with that - thus the name AFCoder a.k.a Absolutely Fucking Compiler.
 
+Normal mode:
 <img width="1598" height="980" alt="image" src="https://github.com/user-attachments/assets/6998bc06-394b-41c4-b56e-e4698c8f6eb6" />
 
+Obliteration mode:
+<img width="1602" height="986" alt="image" src="https://github.com/user-attachments/assets/368fb418-dc70-4451-a9bb-7d0148271a5b" />
 
 
 
