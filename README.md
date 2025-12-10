@@ -27,6 +27,7 @@ Custom Python compiler to help me orient myself in 10k lines of .py file. Curren
     * **Font coloring** IDLE/IDE style + mellow black background. Whole file or by lines.
     * Separation of executed code's **Standard Output** and **Error** logs.
     * **Undo/Redo:** Endless instances of undo/redo.
+    * Tab/Shift+tab whole lines.
 * **Navigation:**
     * **Boosted Scrollbar:** Hold shift for increased scrolling speed. Or ctrl for turbo boost 3:->
     * **Class/def Bookmarks:** Jump instantly from the sidebar list to the corresponding class node on the canvas and its definition in the console.
@@ -72,7 +73,7 @@ Python 3.x and following modules:
  ### Save and render
 
 * saves (like ctrl+s) and manually renders graph out of console without OOP mode
-* 
+  
  ### Unused nodes
 
 * Hidden nodes in canvas (left-clicked)
