@@ -16,7 +16,7 @@ Obliteration mode:
 ---
 ## What it can do
 
-* **OOP Structure Visualization:** Automatically generates a navigable, dependency graph of your Python project.
+* **OOP Structure Visualization:** Automatically generates a graph of the .py file/code.
     * **Colored boxes** represent classes, functions, and files.
     * **Arrows** (lines) illustrate **dependencies** and **call relationships**.
     * zoom/unzoom, reset zoom, drag, quick find via bookmarked classes/defs, hover tooltips (arrows: where are they connecting to; boxes: content of def/class)
@@ -38,10 +38,15 @@ Obliteration mode:
     * **Obliterate:** Dissipates the whole screen into oblivion.
 
 ---
-## What it can't do
+## What would be great if it had
+* debug jump to line
 
-* compile/export straight to .exe via pyinstaller + settings
-* nicely find canvas nodes via bookmarks (it can do that, but it's sketchy thanks to zooming)
+---
+
+## Known issues
+* obliteration is heavy on CPU
+* find nodes in canvas sometimes off due to zoom
+
 
 ---
 
@@ -85,6 +90,7 @@ Python 3.x and following modules:
  ### Reset view
 
 * Zoom/unzoom canvas via undo/redo.
+
 
 
 ### Hotkeys / Controls
