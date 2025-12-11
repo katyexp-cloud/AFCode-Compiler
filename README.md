@@ -39,9 +39,9 @@ Normal mode:
 ---
 
 ## Known issues
-* obliteration is heavy on CPU
 * find nodes in canvas sometimes off due to zoom
 * scrollbars glitching when resizing windows
+* obliteration is heavy on CPU
 
 
 ---
