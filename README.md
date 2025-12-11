@@ -6,11 +6,6 @@ Custom Python compiler to help me orient myself in 10k lines of .py file. Curren
 Normal mode:
 <img width="1598" height="980" alt="image" src="https://github.com/user-attachments/assets/6998bc06-394b-41c4-b56e-e4698c8f6eb6" />
 
-Obliteration mode:
-<img width="1598" height="980" alt="image" src="https://github.com/user-attachments/assets/72d211b7-97cb-43ac-a6a2-612b4ba3dc6e" />
-
-
-
 
 
 ---
@@ -39,13 +34,14 @@ Obliteration mode:
 
 ---
 ## What would be great if it had
-* debug jump to line
+* debug console jump to line
 
 ---
 
 ## Known issues
 * obliteration is heavy on CPU
 * find nodes in canvas sometimes off due to zoom
+* scrollbars glitching when resizing windows
 
 
 ---
