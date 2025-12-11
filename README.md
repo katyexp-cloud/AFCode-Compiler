@@ -16,6 +16,7 @@ Normal mode:
     * **Arrows** (lines) illustrate **dependencies** and **call relationships**.
     * zoom/unzoom, reset zoom, drag, quick find via bookmarked classes/defs, hover tooltips (arrows: where are they connecting to; boxes: content of def/class)
 * **Code Runner:** Execute code directly from the console pane.
+* **Build .exe:** via pyinstaller; preset commands + manual.
 * **Canvas:** Filter and toggle visibility of different node types:
     * **Panning & Zooming** Using mouse drag and scroll wheel. Shift/Ctrl for increaed/turbo speed zoom/unzoom.
     * **Project** (blue), **Functions** (red), **Classes** (yellow) and **Methods** (green)
@@ -31,10 +32,12 @@ Normal mode:
     * **Boosted Scrollbar:** Hold shift for increased scrolling speed. Or ctrl for turbo boost 3:->
     * **Class/def Bookmarks:** Jump instantly from the sidebar list to the corresponding class node on the canvas and its definition in the console.
     * **Obliterate:** Dissipates the whole screen into oblivion.
-
+* **GUI:**
+    * Manually adjustable height of listbox bookmarks.
+    * Autosave of all entries and layout to .json when closed.
 ---
 ## What would be great if it had
-* debug console jump to line
+* debug console jumps to bug line via click
 
 ---
 
