@@ -1,7 +1,7 @@
 # AFCode
 
 
-Custom Python OOP compiler.
+Custom Python OOP compiler built on AST, Pydot and Graphviz modules.
 
 Normal mode:
 <img width="1677" height="984" alt="image" src="https://github.com/user-attachments/assets/0d24e55e-a147-4f3f-9cf1-b2dd625fe0da" />
@@ -30,10 +30,11 @@ Normal mode:
     * **Undo/Redo:** Endless instances of undo/redo.
     * Tab/Shift+tab whole lines.
 * **Navigation:**
-    * **Boosted Scrollbar:** Hold shift for increased scrolling speed. Or ctrl for turbo boost 3:->
+    * **Boosted Scrollbar:** Hold shift for increased scrolling speed. Or ctrl for turbo boost.
     * **Class/def Bookmarks:** Jump instantly from the sidebar list to the corresponding class node on the canvas and its definition in the console.
     * **Obliterate:** Dissipates the whole screen into oblivion.
 * **GUI:**
+    * Resize via hotkeys or dragging. Console/Canvas/Both view.   
     * Manually adjustable height of listbox bookmarks.
     * Autosave of all entries and layout to .json when closed.
 
@@ -50,7 +51,7 @@ Normal mode:
 
 ## Usage Instructions
 
-### Open FIle/Folder
+### Open File/Folder
 
 * opens filedialog -> choose .py file; if not selected -> choose folder
   
