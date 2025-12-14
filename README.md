@@ -80,26 +80,26 @@ Layout (expanded):
 
 Python 3.x and following modules:
 
-* Zimport ast
-* Zimport math
-* Zimport threading
-* Zimport subprocess
-* Zimport re
-* Zimport tempfile
-* Zimport json
-* Zimport queue
-* Zimport time
-* Zimport sys
-* Zimport os
+* import ast
+* import math
+* import threading
+* import subprocess
+* import re
+* import tempfile
+* import json
+* import queue
+* import time
+* import sys
+* import os
 
-* Zimport tkinter as tk
-* Zfrom tkinter import ttk, filedialog, messagebox, scrolledtext
+* import tkinter as tk
+* from tkinter import ttk, filedialog, messagebox, scrolledtext
 
-* Zimport pydot
+* import pydot
 
-* Zimport numpy as np
-* Zfrom PIL import ImageGrab, ImageTk, Image
-* Zfrom numpy.fft import fft2, fftshift
+* import numpy as np
+* from PIL import ImageGrab, ImageTk, Image
+* from numpy.fft import fft2, fftshift
 
 ---
 
