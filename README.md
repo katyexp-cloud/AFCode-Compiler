@@ -80,26 +80,26 @@ Layout (expanded):
 
 Python 3.x and following modules:
 
-import ast
-import math
-import threading
-import subprocess
-import re
-import tempfile
-import json
-import queue
-import time
-import sys
-import os
+* Zimport ast
+* Zimport math
+* Zimport threading
+* Zimport subprocess
+* Zimport re
+* Zimport tempfile
+* Zimport json
+* Zimport queue
+* Zimport time
+* Zimport sys
+* Zimport os
 
-import tkinter as tk
-from tkinter import ttk, filedialog, messagebox, scrolledtext
+* Zimport tkinter as tk
+* Zfrom tkinter import ttk, filedialog, messagebox, scrolledtext
 
-import pydot
+* Zimport pydot
 
-import numpy as np
-from PIL import ImageGrab, ImageTk, Image
-from numpy.fft import fft2, fftshift
+* Zimport numpy as np
+* Zfrom PIL import ImageGrab, ImageTk, Image
+* Zfrom numpy.fft import fft2, fftshift
 
 ---
 
@@ -108,7 +108,7 @@ from numpy.fft import fft2, fftshift
 * f1: toggle console lock
 * f2: resize to the left
 * f3: resize to the right
-* f4: fuck that shit
+* f4: visualiser
 * f5: run code
 * f6: save & run code
 * f7: build code
